@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+
+Info{
+	background:grey;
+	font-family:arial;
+}
+.parent-div{
+	diplay:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.example.div{
+	
+	background:url("a.jpg");
+	margin:0 auto;
+	display:inline-block;
+	
+}
+	
+body{
+	background:grey;
+	font-family:arial;
+	background-image:url("image/a.jpg");
+	background-size:cover;
+}
+
+h1{
+	font-size:18px;
+}
+
+a{
+	clor:#000000;
+	text-decoration:underline;
+	
+}
+
+a:hover{
+	color: #000000;
+	text-decoration:none;
+}
+
+ <style>
+.content-table{
+border-collapse:collapse;
+margin :25px;
+font-size: 0.9cm;
+min-width:1000px;
+background:url("image/a.jpg");
+border-radius:5px 5px 0 0;
+}
+  
+
+.content-table thread tr{
+background-color:grey;
+color:#ffff;
+text-aligh:ceter;
+
+}
+
+.content-table th,
+.content-table:td{
+padding: 12px 15px;
+
+}
+
+.content-table tbody tr{
+border-bottom:1px solid #dddddd}
+
+.content-table tbody tr:nth-of-type(even){
+background-color:#f3f3f3;
+}
+ 
+ </style>
+
+
+
